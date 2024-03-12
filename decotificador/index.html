@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <title>Decodificador</title>
+  </head>
+  <body>
+    <main class="main container">
+      <header class="cabecalho">
+        <h1>Mensagens Codificadas</h1>
+      </header>
+      <div class="container-input">
+        <div class="input">
+          <textarea
+            id="input-texto"
+            placeholder="Digite seu texto aqui..."
+          ></textarea>
+      
+        </div>
+
+        <div id="output">
+          <h2>Sua mensagem aparecerá aqui!</h2>
+         
+        </div>
+      </div>
+
+      <div class="buttons">
+        <div class="container-bnt">
+          <button onclick="criptografar()" class="btn-criptografar">
+            Criptografar
+          </button>
+          <button onclick="descriptografar()" class="btn-descriptografar">
+            Descriptografar
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
